@@ -53,5 +53,5 @@ A professional, responsive web app for managing daily tasks with priority and ca
 
 ## Screenshots
 ![Image Alt]( https://github.com/Yvette334/to-do/blob/75ececfc0df01d0e483ce60afe126a315fd8416a/Screenshot%202025-09-21%20191141.png).
-![Image Alt]([https://github.com/Yvette334/to-do/blob/main/1.png?raw=true](https://github.com/Yvette334/to-do/blob/b59f3633f3bce975f1c03d13910ef7d6ca1132b4/33.png))
+![Image Alt](https://github.com/Yvette334/to-do/blob/b59f3633f3bce975f1c03d13910ef7d6ca1132b4/33.png)
 
