@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https:cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
     <title>To do list application</title>
   </head>
@@ -11,15 +11,25 @@
     <div class="bg-slate-900 text-white w-[400px] min-h-[400px] mx-auto mt-10">
       <h2 class="text-center font-bold text-3xl">TO Do APP</h2>
       <div class="w-full flex px-5">
-        <input id="input" class="w-full px-3 py-1.5 round-t1-2xl text-black border-none outline-none rounded-bl-2xl" type="text" placeholder="Enter a new task" />
-        <button onclick="add()" class="bg-amber-600 px-4 rounded-tr-2xl rounded-br-2xl cursor-pointer"> Add</button>
-      </div class="w-full px-5 my-3">
-      <div>
+        <input
+          id="input"
+          class="w-full px-3 py-1.5 rounded-t1-2xl text-black border-none outline-none rounded-bl-2xl"
+          type="text"
+          placeholder="Enter a new task"
+        />
+        <button
+          onclick="add()"
+          class="bg-amber-600 px-4 rounded-tr-2xl rounded-br-2xl cursor-pointer"
+        >
+          Add
+        </button>
+      </div>
+      <div class="w-full px-5 my-3">
         <h2 class="text-lg font-bold border-b">List of the tasks</h2>
-        <ul id="list" class="flex flex-col  p-2">
-            <!-- <li>task1 <span>.</span></li> -->
+        <ul id="list" class="flex flex-col p-2">
+          <!-- <li>task1 <span>.</span></li> -->
         </ul>
-    </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

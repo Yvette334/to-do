@@ -4,7 +4,7 @@
  position: relative;
  justify-content: space-between;
 }
-#listItem li::before{
+#list li::before{
     position: absolute;
     content: "";
     width: 16px;
@@ -15,10 +15,27 @@
     top: 6px;
     left: -22px
 }
-#listItem li.checked{
+#list li.checked{
     text-decoration: line-through;
     color: orange;
 }
-#listItem li.checked::backdrop{
-    background-image: url(./images/check.png);
+#list li.checked::before{
+    background-image: url("./images/checked.png");
+}
+#list li span{
+    position:absolute;
+    right:0;
+    top:0
+    background: transparent;
+    color: red;
+    width: 20px;
+    height: 20px;
+    border-radius:50px;
+    line-height:15px;
+    display:flex;
+    justify-content:center;
+}
+#list li span:hover{
+    background: red;
+    color: white;
 }
