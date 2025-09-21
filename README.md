@@ -52,7 +52,11 @@ A professional, responsive web app for managing daily tasks with priority and ca
   - Tasks are saved automatically in your browser. Reloading the page restores your list.
 
 ## Screenshots
+<<<<<<< HEAD
 
 > _Add screenshots of the main UI sections here._
 > Example:
 
+=======
+![Image Alt]( https://github.com/Yvette334/to-do/blob/75ececfc0df01d0e483ce60afe126a315fd8416a/Screenshot%202025-09-21%20191141.png).
+>>>>>>> a36362c09f125a1bb01bd86ab9c79ab8b195b22f
