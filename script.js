@@ -11,4 +11,13 @@ function add() {
     span.innerHTML = "\u00d7";
     li.appendChild(span);
   }
+  input.value = "";
 }
+list.addEventListener("click",(e)=>{
+    if (e.target.tagName === "LI") {
+        e.target.classList.toggle("checked");
+    }
+    if (e.target.tagName === "SPAN") {
+        e.target.parentElement.remove();
+}
+

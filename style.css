@@ -1,13 +1,15 @@
 @import "tailwindcss";
 #list li{
  display: flex;
+ position: relative;
+ justify-content: space-between;
 }
 #listItem li::before{
     position: absolute;
     content: "";
-    width: 15px;
-    height: 15px;
-    background-image: url(".\to-do\to-do\images\checked.png");
+    width: 16px;
+    height: 16px;
+    background-image: url("./images/unchecked.png");
     background-position: center;
     background-size: cover;
     top: 6px;
@@ -15,7 +17,7 @@
 }
 #listItem li.checked{
     text-decoration: line-through;
-    color: black;
+    color: orange;
 }
 #listItem li.checked::backdrop{
     background-image: url(./images/check.png);
