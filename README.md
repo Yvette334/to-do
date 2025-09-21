@@ -55,7 +55,3 @@ A professional, responsive web app for managing daily tasks with priority and ca
 
 > _Add screenshots of the main UI sections here._
 > Example:
-
-
-
-**Author:** Yvette334
