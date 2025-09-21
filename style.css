@@ -1,0 +1,22 @@
+@import "tailwindcss";
+#list li{
+ display: flex;
+}
+#listItem li::before{
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-image: url(".\to-do\to-do\images\checked.png");
+    background-position: center;
+    background-size: cover;
+    top: 6px;
+    left: -22px
+}
+#listItem li.checked{
+    text-decoration: line-through;
+    color: black;
+}
+#listItem li.checked::backdrop{
+    background-image: url(./images/check.png);
+}
